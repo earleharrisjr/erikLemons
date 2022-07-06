@@ -33,7 +33,7 @@ body, html
 .pimg3
 {
   background-image: url("/assets/images/nightLove.jpg");
-  min-height: 200px;
+  min-height: 400px;
 }
 
 .section
@@ -52,10 +52,8 @@ body, html
 {
   background: #282e34;
   color: #ddd;
+  display: flex;
 }
-
-
-
 .ptext{
   position: absolute;
   top: 50%;
@@ -79,8 +77,28 @@ body, html
   font-weight: 600;
 }
 
-/* below is styling for social media */
-.instagram {
-  background: #3f729b;
-  color: white;
-  }
+.left
+{
+  flex: 1;
+  padding: 1rem;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+img {
+  padding-top: 90px;
+  padding: 50px;
+max-height: 400px;
+max-width:fit-content;
+border-radius: 50%;
+align-content: center;
+display: grid;
+place-items: center;
+display: block;
+margin: 0 auto;
+}
